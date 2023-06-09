@@ -58,7 +58,7 @@ Bu proje, kullanıcılara bilgisayar sistemleriyle ilgili daha bilinçli kararla
 
 
 
-- "Öğeleri Ekle" butonumuzun kodlamasını yaparken;
+### "Öğeleri Ekle" butonumuzun kodlamasını yaparken;
   * comboBoxda seçili textimizin listbox1(Seçilen Öğeler listesi)'e item olarak eklenmesine yarıyacak bir kod
   * listbox1(Seçilen Öğeler listesi)'ndeki son itemi seçen bir kod
 
@@ -78,7 +78,7 @@ private void button1_Click(object sender, EventArgs e)
 
 
 
-- "listbox1" yani "Seçilen Öğeler" listemizin kodlamasını yaparken;
+### "listbox1" yani "Seçilen Öğeler" listemizin kodlamasını yaparken;
   * Seçili olan öğenin metin değerini secilenYazi adlı bir string değişkene atayan bir kod
     - ("Öğeleri ekle" butonunun listbox1 deki son itemı seçmesinin sebebi buydu.) 
   * secilenYazi eşlenebileceği değerler if komutuyla ekleniyor ve bu değerlerin eşleşmesi halinde listbox2(Fiyat Listesi)'ye eklenecek fiyatlar
@@ -108,7 +108,7 @@ string secilenYazi = listBox1.Text;
 
 ```
 
-- "Geri Al" butonumuzun kodlamasını yaparken;
+### "Geri Al" butonumuzun kodlamasını yaparken;
   * listbox1(Seçilen Öğeler listesi)'ndeki son itemı silen bir kod
   * listbox2(Fiyat listesi)'ndeki son itemi silen bir kod
 
@@ -130,7 +130,7 @@ private void button1_Click(object sender, EventArgs e)
 
 
 
-- "Sıfırla" butonumuzun kodlamasını yaparken;
+### "Sıfırla" butonumuzun kodlamasını yaparken;
   * listbox1(Seçilen Öğeler listesi)'ndeki tüm itemleri silen bir kod
   * listbox2(Fiyat listesi)'ndeki tüm itemleri silen bir kod
   * Tüm comboBox'ların seçili olan öğesini temizler veya seçim yapmamış duruma getirir. 
@@ -155,7 +155,7 @@ private void button1_Click(object sender, EventArgs e)
 
 
 
-- "Hesapla" butonumuzun kodlamasını yaparken;
+### "Hesapla" butonumuzun kodlamasını yaparken;
   * toplam adında bir decimal değişkeni tanımlayan ve başlangıç değeri olarak 0 atayan bir kod
   * listBox2.Items koleksiyonu üzerinde bir döngü oluşturulur. Her bir item için aşağıdaki adımlar gerçekleştirilir:
       - item.ToString() metoduyla öğenin string temsilini alırız.
